@@ -1,0 +1,48 @@
+body {
+    background-color: #A3DEB7;
+    text-align: center;
+}
+
+#title {
+    background color: white;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+
+#description {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 27px;
+  padding: 10px;
+}
+
+.border {
+    border-color: white;
+    border-width: 15px;
+    border-style: solid;
+}
+
+#form-outer {
+    background-color: #A9A3DE;
+    margin: auto;
+    height: 100%;
+    width: 70%;
+    padding: 100px;
+}
+
+.labels {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    line-height: 3em;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.series {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
