@@ -2,11 +2,12 @@
 <html>
     <head>
         <link href="index.css" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Gochi+Hand|Open+Sans+Condensed:300|Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Gochi+Hand|Open+Sans+Condensed:300|Rock+Salt
+        |Poppins&display=swap" rel="stylesheet">
     </head>
     <body>
       <h1 id="title">Quiz Time</h1>
-      <div id="form-outer" class="border">
+      <div id="inner-form" class="border">
           <p id="description"> Let me get to know you!</p>
           <form id="survey-form" action="/submit">
               <div class="labels">
@@ -19,16 +20,16 @@
                         <input name="age" type="number" id="number" min="1" max="200" required placeholder="Age number"/>
                     </label>
                   </label>                 
-                  <label class="input-field"> If you could jump into a pool of anything what would it be?
+                  <label class ="questions" class="input-field"> If you could jump into a pool of anything what would it be?
                       <input name="answer" type="text" placeholder="Do not say water"/>
                   </label>                  
-                  <label class="input-field" id="answer-label"> What character of the Bible would you travel back to have a meal with?
+                  <label class="questions" class="input-field" id="answer-label"> What character of the Bible would you travel back to have a meal with?
                       <input name="answer" type="text"/>        
                   </label>                                
-                  <label class="input-field"> If you could have any hidden talent what would it be?
+                  <label class="questions" class="input-field"> If you could have any hidden talent what would it be?
                       <input name="answer" type="text"/>
                       </label>                   
-              <div class="labels" class="input-field">
+              <div class="questions" class="input-field">
                   <label for="nature">What is your favorite part of nature?</label>
               </div>
               <div class="labels">
@@ -41,37 +42,37 @@
                       <option value="other">Other</option>
                   </select>
               </div>
-              <div class="labels">
+              <div class="questions">
                   <label for="chekcbox">Do you enjoy any of the following series?</label>
               </div>
-              <div class="labels">
+              <div class="checkbox" class="labels">
                   <ul>
                       <li class="series">
-                          <label>Harry Potter<input name="checkbox" value="movie" type="checkbox"></label>
+                          <label><input name="checkbox" value="movie" type="checkbox">Harry Potter</label>
                       </li>
                       <li class="series">
-                          <label>Lord of the Rings<input name="checkbox" value="movie" type="checkbox"></label>
+                          <label><input name="checkbox" value="movie" type="checkbox">Lord of the Rings</label>
                       </li>
                       <li class="series">
-                          <label>The Hunger Games<input name="checkbox" value="movie" type="checkbox"></label>
+                          <label><input name="checkbox" value="movie" type="checkbox">The Hunger Games</label>
                       </li>
                       <li class="series">
-                          <label>Divergent<input name="checkbox" value="movie" type="checkbox"></label>
+                          <label><input name="checkbox" value="movie" type="checkbox">Divergent</label>
                       </li>
                   </ul>
               </div>
-              <div class="labels">
+              <div class="questions">
                   <label for="radio">Which cake do you prefer?</label>
               </div>
               <div class="labels">
                   <ul>
-                      <li class="radio"><label>Cheesecake<input name="radio-buttons" value="1" type="radio"></label></li>
-                      <li class="radio"><label>Cookie Cake<input name="radio-buttons" value="2" type="radio"></label></li>
-                      <li class="radio"><label>Regular Cake<input name="radio-buttons" value="3" type="radio"></label></li>
-                      <li class="radio"><label>Cake's gross give me that pie<input name="radio-buttons" value="4" type="radio"></label></li>
+                      <li class="radio-buttons"><label><input name="radio-buttons" value="1" type="radio">Cheesecake</label></li>
+                      <li class="radio-buttons"><label><input name="radio-buttons" value="2" type="radio">Cookie Cake</label></li>
+                      <li class="radio-buttons"><label><input name="radio-buttons" value="3" type="radio">Regular Cake</label></li>
+                      <li class="radio-buttons"><label><input name="radio-buttons" value="4" type="radio">Cake's gross give me that pie</label></li>
                   </ul>
               </div>
-              <div class="labels">
+              <div class="questions" class="labels">
                   <label for="feedback">Any other fun fact about yourself?</label>
                   </div>
                   <div class="feedback">
